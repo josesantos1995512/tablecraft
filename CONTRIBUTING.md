@@ -1,8 +1,8 @@
-# Contributing to TableCraft 🤝
+# Contributing to TableCraft
 
 Thank you for your interest in contributing to TableCraft! This document provides guidelines and information for contributors.
 
-## 🎯 Project Goals
+## Project Goals
 
 TableCraft aims to be a modern, open-source project management tool that:
 - Provides an intuitive table-based interface for task management
@@ -10,7 +10,7 @@ TableCraft aims to be a modern, open-source project management tool that:
 - Supports real-time collaboration
 - Maintains high code quality and developer experience
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -19,13 +19,13 @@ TableCraft aims to be a modern, open-source project management tool that:
 
 ### Development Setup
 
-1. **Fork and clone the repository**
+1. Fork and clone the repository
    ```bash
    git clone https://github.com/yourusername/tablecraft.git
    cd tablecraft
    ```
 
-2. **Install dependencies**
+2. Install dependencies
    ```bash
    # Backend
    cd backend && npm install
@@ -34,14 +34,14 @@ TableCraft aims to be a modern, open-source project management tool that:
    cd ../frontend && npm install
    ```
 
-3. **Set up environment variables**
+3. Set up environment variables
    ```bash
    # Copy example files
    cp backend/.env.example backend/.env
-   cp frontend/.env.example frontend/.env
+   # (frontend/.env.example does not exist by default; create if needed)
    ```
 
-4. **Start development servers**
+4. Start development servers
    ```bash
    # Terminal 1: Backend
    cd backend && npm run dev
@@ -50,47 +50,47 @@ TableCraft aims to be a modern, open-source project management tool that:
    cd frontend && npm run dev
    ```
 
-## 🏷️ Issue Labels
+## Issue Labels
 
 We use the following labels to categorize issues:
 
-- 🟢 **good first issue** - Perfect for new contributors
-- 🟡 **enhancement** - New features or improvements
-- 🔴 **bug** - Something isn't working
-- 📚 **documentation** - Improvements or additions to documentation
-- 🎨 **ui/ux** - User interface and experience improvements
-- 🔧 **refactor** - Code refactoring
-- ⚡ **performance** - Performance improvements
-- 🧪 **testing** - Adding or improving tests
+- **good first issue** - Perfect for new contributors
+- **enhancement** - New features or improvements
+- **bug** - Something isn't working
+- **documentation** - Improvements or additions to documentation
+- **ui/ux** - User interface and experience improvements
+- **refactor** - Code refactoring
+- **performance** - Performance improvements
+- **testing** - Adding or improving tests
 
-## 📝 Pull Request Process
+## Pull Request Process
 
-1. **Create a feature branch**
+1. Create a feature branch
    ```bash
    git checkout -b feature/your-feature-name
    ```
 
-2. **Make your changes**
+2. Make your changes
    - Follow the coding standards below
    - Add tests for new functionality
    - Update documentation if needed
 
-3. **Commit your changes**
+3. Commit your changes
    ```bash
    git add .
    git commit -m "feat: add your feature description"
    ```
 
-4. **Push and create a PR**
+4. Push and create a PR
    ```bash
    git push origin feature/your-feature-name
    ```
 
-5. **Wait for review**
+5. Wait for review
    - All PRs require at least one review
    - Address any feedback from reviewers
 
-## 📋 Coding Standards
+## Coding Standards
 
 ### TypeScript/JavaScript
 - Use TypeScript for all new code
@@ -116,7 +116,7 @@ We use the following labels to categorize issues:
 - Implement proper error handling
 - Add input validation using Joi or similar
 
-## 🧪 Testing
+## Testing
 
 ### Frontend Testing
 - Write unit tests for components using Jest and React Testing Library
@@ -128,14 +128,14 @@ We use the following labels to categorize issues:
 - Test API endpoints with supertest
 - Mock external dependencies
 
-## 📚 Documentation
+## Documentation
 
 - Update README.md for significant changes
 - Add JSDoc comments for new functions
 - Update API documentation
 - Create or update component stories (if using Storybook)
 
-## 🎨 UI/UX Guidelines
+## UI/UX Guidelines
 
 - Follow the design system and component library
 - Ensure responsive design works on all screen sizes
@@ -143,7 +143,7 @@ We use the following labels to categorize issues:
 - Test with screen readers for accessibility
 - Use semantic HTML elements
 
-## 🔄 Git Workflow
+## Git Workflow
 
 ### Commit Message Format
 We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification:
@@ -171,28 +171,28 @@ Types:
 - `docs/documentation-update` - Documentation changes
 - `refactor/component-name` - Code refactoring
 
-## 🚨 Reporting Bugs
+## Reporting Bugs
 
 When reporting bugs, please include:
 
-1. **Clear description** of the issue
-2. **Steps to reproduce** the problem
-3. **Expected behavior** vs actual behavior
-4. **Screenshots** or GIFs if applicable
-5. **Environment details** (OS, browser, Node.js version)
-6. **Console errors** or logs
+1. Clear description of the issue
+2. Steps to reproduce the problem
+3. Expected behavior vs actual behavior
+4. Screenshots or GIFs if applicable
+5. Environment details (OS, browser, Node.js version)
+6. Console errors or logs
 
-## 💡 Suggesting Features
+## Suggesting Features
 
 When suggesting new features:
 
-1. **Describe the problem** you're trying to solve
-2. **Explain your proposed solution**
-3. **Consider the impact** on existing functionality
-4. **Think about implementation** complexity
-5. **Consider alternatives** that might be simpler
+1. Describe the problem you're trying to solve
+2. Explain your proposed solution
+3. Consider the impact on existing functionality
+4. Think about implementation complexity
+5. Consider alternatives that might be simpler
 
-## 🏆 Recognition
+## Recognition
 
 Contributors will be recognized in:
 - GitHub contributors list
@@ -200,16 +200,16 @@ Contributors will be recognized in:
 - Release notes
 - Community shoutouts
 
-## 📞 Getting Help
+## Getting Help
 
 - **GitHub Issues**: For bugs and feature requests
 - **GitHub Discussions**: For questions and general discussion
 - **Discord**: For real-time chat and collaboration
 
-## 📄 License
+## License
 
 By contributing to TableCraft, you agree that your contributions will be licensed under the MIT License.
 
 ---
 
-Thank you for contributing to TableCraft! 🎉 
+Thank you for contributing to TableCraft! 

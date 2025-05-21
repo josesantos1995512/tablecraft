@@ -1,27 +1,27 @@
-# TableCraft 🚀
+# TableCraft
 
-A modern, open-source project management web app with table-based UI, drag-and-drop functionality, and AI-powered task recommendations.
+TableCraft is an open-source project management web app focused on a table-based UI, drag-and-drop functionality, and AI-powered task recommendations.
 
-## ✨ Features
+## Features
 
-- 📊 **Table-Based Project Management** - Organize tasks in customizable tables
-- 🎯 **Priority Tagging** - Assign urgent, normal, or low priorities with visual indicators
-- 👥 **Team Workload Visualization** - Track task completion rates and workload distribution
-- 📋 **Kanban View** - Switch between table and board-style views
-- 🤖 **AI Task Recommendations** - Smart task prioritization using TensorFlow.js
-- 🔄 **Real-Time Collaboration** - Live updates and team chat with Socket.IO
-- 🎨 **Modern UI/UX** - Beautiful design with Tailwind CSS and Framer Motion animations
+- Table-based project management
+- Priority tagging (urgent, normal, low)
+- Team workload visualization
+- Kanban view (planned)
+- AI task recommendations (planned)
+- Real-time collaboration (planned)
+- Modern UI/UX
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Frontend**: React, TypeScript, Tailwind CSS, react-dnd, Framer Motion
-- **Backend**: Node.js, Express, TypeScript, Sequelize
-- **Database**: SQLite (dev) / PostgreSQL (prod)
-- **Real-time**: Socket.IO
-- **AI**: TensorFlow.js
-- **Build Tools**: Vite, ESLint, Prettier
+- Frontend: React, TypeScript, Tailwind CSS, react-dnd, Framer Motion
+- Backend: Node.js, Express, TypeScript, Sequelize
+- Database: SQLite (development) / PostgreSQL (production)
+- Real-time: Socket.IO
+- AI: TensorFlow.js
+- Build Tools: Vite, ESLint, Prettier
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -29,31 +29,31 @@ A modern, open-source project management web app with table-based UI, drag-and-d
 
 ### Installation
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/tablecraft.git
    cd tablecraft
    ```
 
-2. **Install dependencies**
+2. Install dependencies
    ```bash
-   # Install backend dependencies
+   # Backend dependencies
    cd backend && npm install
    
-   # Install frontend dependencies
+   # Frontend dependencies
    cd ../frontend && npm install
    ```
 
-3. **Set up environment variables**
+3. Set up environment variables
    ```bash
    # Backend
    cp backend/.env.example backend/.env
    
    # Frontend
-   cp frontend/.env.example frontend/.env
+   # (frontend/.env.example does not exist by default; create if needed)
    ```
 
-4. **Start development servers**
+4. Start development servers
    ```bash
    # Terminal 1: Start backend
    cd backend && npm run dev
@@ -62,53 +62,47 @@ A modern, open-source project management web app with table-based UI, drag-and-d
    cd frontend && npm run dev
    ```
 
-5. **Open your browser**
+5. Open your browser
    - Frontend: http://localhost:5173
    - Backend API: http://localhost:3000
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 tablecraft/
 ├── frontend/                 # React frontend application
 │   ├── src/
-│   │   ├── components/      # Reusable UI components
-│   │   ├── pages/          # Page components
-│   │   ├── hooks/          # Custom React hooks
-│   │   ├── services/       # API services
-│   │   ├── types/          # TypeScript type definitions
-│   │   └── utils/          # Utility functions
-│   ├── public/             # Static assets
+│   │   ├── assets/          # Static assets (react.svg)
+│   │   ├── hooks/           # Custom React hooks (currently empty)
+│   │   ├── pages/           # Page components (currently empty)
+│   │   └── utils/           # Utility functions (currently empty)
 │   └── package.json
-├── backend/                 # Node.js backend API
+├── backend/                  # Node.js backend API
 │   ├── src/
-│   │   ├── controllers/    # Route controllers
-│   │   ├── models/         # Database models
-│   │   ├── routes/         # API routes
-│   │   ├── services/       # Business logic
-│   │   ├── middleware/     # Custom middleware
-│   │   └── utils/          # Utility functions
-│   ├── database/           # Database migrations & seeds
+│   │   ├── controllers/     # Route controllers (currently empty)
+│   │   ├── types/           # Type definitions (index.ts)
+│   │   └── utils/           # Utility functions (currently empty)
 │   └── package.json
-├── docs/                   # Documentation
-├── .github/                # GitHub workflows & templates
+├── docs/                    # Documentation
 └── README.md
 ```
 
-## 🤝 Contributing
+※ The above structure reflects the actual folders/files in the project. (components, services, types, models, routes, middleware, etc. do not currently exist)
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+## Contributing
 
-### Good First Issues
-- 🟢 UI component improvements
-- 🟢 Bug fixes
-- 🟢 Documentation updates
-- 🟡 Feature implementations
-- 🔴 Core architecture changes
+We welcome contributions! For details, see the [Contributing Guide](CONTRIBUTING.md).
 
-## 📈 Roadmap
+### Good Contribution Areas
+- UI improvements
+- Bug fixes
+- Documentation updates
+- Feature implementation (planned)
+- Core architecture changes (with caution)
 
-### Phase 1: MVP (Current)
+## Roadmap
+
+### Phase 1: MVP (In Progress)
 - [x] Basic table interface
 - [x] Drag and drop functionality
 - [x] Priority tagging system
@@ -128,22 +122,16 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - [ ] Performance optimizations
 - [ ] Enterprise features
 
-## 📊 Community Goals
+## License
 
-- 🎯 **1,000-5,000 GitHub Stars** by end of 2025
-- 👥 **Active contributor community** with 50+ contributors
-- 🌟 **Featured on** Dev.to, Reddit r/webdev, and Hacker News
+Distributed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by NocoDB's table management approach
-- Built with modern web technologies for developer experience
-- Community-driven development approach
+- Built with modern web technologies
+- Community-driven development
 
 ---
 
-**Made with ❤️ by the TableCraft community** 
+Made by the TableCraft community. 
